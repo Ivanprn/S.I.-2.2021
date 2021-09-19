@@ -7,7 +7,7 @@ Algoritmo "semnome"
 Var
    // Seção de Declarações das variáveis
    prod,l1,tprod,lprod,l2,prodl1,prodl2,op:inteiro
-   mprod,mprodl1,mprodl2:real
+   percentl1,percentl2,PercentSuperProd,Supprod,mprod,mprodl1,mprodl2:real
    linha:caracter
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -22,14 +22,22 @@ Inicio
          l1<-l1+1
          prodl1<-prodl1+prod
       Senao
-      linha<-"Linha 2"
+         linha<-"Linha 2"
          l2<-l2+1
          prodl2<-prodl2+prod
       fimse
       //Escreval (op:2 ,"Produção:",prod," ", linha)
+      Se prod>300 entao
+         SUPprod<-Supprod+1
+      fimse
    fimenquanto
    mprodl1<- prodl1/l1
    mprodl2<- prodl2/l2
    mprod<-tprod/op
-   Escreval ("A media de produção geral é: ",mprod:5:2,". Da Linha 1 é:",mprodl1:5:2,". Da Linha 2 é:",mprodl2:5:2)
+   Percentl1<-(l1/op)*100
+   Percentl2<-(l2/op)*100
+   PercentSuperProd<-(Supprod/op)*100
+   Escreval ("A media de produção geral é: ",mprod:5:2,". Da Linha 1 é: ",mprodl1:5:2,". Da Linha 2 é: ",mprodl2:5:2)
+   Escreval ("O percentual produzido na Linha 1 é de: ",Percentl1:5:2,"%"," na Linha 2 é de: ",Percentl2:5:2,"%")
+   Escreval ("O percentual de operadores que produziram mais de 300 peças foi de: ",PercentSuperProd:5:2,"%")
 Fimalgoritmo

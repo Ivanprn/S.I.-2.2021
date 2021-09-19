@@ -73,8 +73,8 @@ Inicio
    percent_f_basquete<-(basquete_f/t_fem)*100
    percent_f_futebol<-(futebol_f/t_fem)*100
    percent_f_volei<-(volei_f/t_fem)*100
-   Escreval ("A média de idade dos jovens que preferem basquete é:",m_id_basquete:2," ","dos que preferem futebol é:",m_id_futebol:2," ","e dos que preferem volei é:",m_id_volei:2,".")
-   Escreval ("A média de idade dos meninos é:",m_idade_M:2," ","e das meninas é:",m_idade_F:2)
-   Escreval ("A média de meninos que jogam basquete é:",percent_m_basquete:2:2," ","futebol:"," ",percent_m_futebol:2:2," ","volei:",percent_m_volei:2:2)
-   Escreval ("A média de meninas que jogam basquete é:",percent_f_basquete:2:2," ","futebol:"," ",percent_f_futebol:2:2," ","volei:",percent_f_volei:2:2)
+   Escreval ("A média de idade dos jovens que preferem basquete é:",m_id_basquete:2:2," dos que preferem futebol é:",m_id_futebol:2," e dos que preferem volei é:",m_id_volei:2,".")
+   Escreval ("A média de idade dos meninos é:",m_idade_M:2:2," e das meninas é:",m_idade_F:2:2)
+   Escreval ("O percentual de meninos que jogam basquete é:",percent_m_basquete:2:2," futebol:"," ",percent_m_futebol:2:2," volei:",percent_m_volei:2:2)
+   Escreval ("O percentual de meninas que jogam basquete é:",percent_f_basquete:2:2," futebol:"," ",percent_f_futebol:2:2," volei:",percent_f_volei:2:2)
 Fimalgoritmo

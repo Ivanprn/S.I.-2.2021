@@ -43,14 +43,14 @@ Inicio
          t_Volei<-t_volei+1
       fimse
       cont<-cont+1
-      Escreval(cont:2," ",t_sexo:9," ",idade," ",esporte_pref)
+      //Escreval(cont:2," ",t_sexo:9," ",idade," ",esporte_pref)
    fimenquanto
    m_idade_M<-idade_m/t_masc
    m_idade_F<-idade_f/t_fem
    m_id_basquete<-id_basquete/t_basquete
    m_id_futebol<-id_futebol/t_futebol
    m_id_volei<-id_volei/t_Volei
-   Escreval ("A média de idade dos jovens que preferem basquete é:",m_id_basquete:2," ","dos que preferem futebol é:",m_id_futebol:2," ","e dos que preferem volei é:",m_id_volei:2,".")
-   Escreval ("A média de idade dos meninos é:",m_idade_M:2," ","e das meninas é:",m_idade_F:2)
+   Escreval ("A média de idade dos jovens que preferem basquete é:",m_id_basquete:2:2,", dos que preferem futebol é:",m_id_futebol:2:2,", e dos que preferem volei é:",m_id_volei:2:2,".")
+   Escreval ("A média de idade dos meninos é:",m_idade_M:2:2," ","e das meninas é:",m_idade_F:2:2)
 
 Fimalgoritmo
