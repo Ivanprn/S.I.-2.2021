@@ -1,0 +1,24 @@
+/*
+Programa: Preencher uma matriz 3x3 com numeros inteiros e que crie uma nova matriz que seja o quadrado desta.
+*/
+
+#include<stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <time.h> // precisa deste comando para poder mudar os randômicos.
+int main()
+{
+setlocale(LC_ALL,"portuguese");
+srand(time(NULL)))//precisa deste comando para poder mudar os randômicos.
+int mat_quad[3][3];
+int mat [3][3];
+for (int i=0; i<3; i++)
+{
+	for (int j=0; j<3;j++)
+	{
+	mat[i][j] = rand()%100 // gera numeros aleatórios de 0-100. Para definir um espaço específico 13 7 47 13 55 52 21 51 42
+	mat_quad[i][j] = mat[i][j]*mat[i][j];
+}
+printf ("%d",mat[i][j])
+
+}
